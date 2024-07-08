@@ -53,7 +53,7 @@ public class RegistrationController {
             // Set user role to USER and set it as active
             userService.saveUser(user);
 
-            modelAndView.addObject("successMessage", "User has been registered successfully");
+            modelAndView.addObject("successMessage", "User has been registered nice successfully");
             modelAndView.addObject("user", new User());
             modelAndView.setViewName("/registration");
         }
